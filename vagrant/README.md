@@ -21,3 +21,7 @@ mkdir <dir>
 cd <dir>
 vagrant init <box name>
 ```
+プラグインインストール
+```
+vagrant plugin install <name>
+```

@@ -1,0 +1,10 @@
+[user]
+  email = it_fujie@yahoo.co.jp
+  name = Takashi Fujie
+
+[color]
+  ui = auto
+
+[alias]
+  st = status
+  ba = branch -a

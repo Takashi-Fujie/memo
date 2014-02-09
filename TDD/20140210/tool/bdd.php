@@ -1,5 +1,12 @@
 <?php
 /**
+ * @param $title テスト大項目
+ */
+function describe($title) {
+  printf("*** %s ***\n", $title);
+}
+
+/**
  * @param $title テストタイトル
  * @param $func  テストfunction
  */
@@ -8,5 +15,5 @@ function it($title, $func) {
   if($func()) {
     $result = "OK!";
   }
-  printf("'%-50s' => %s\n", $title, $result);
+  printf("%-50s => %s\n", $title, $result);
 }
